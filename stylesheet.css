@@ -1,0 +1,89 @@
+table, .flexbox {
+    width: 800px;
+    height: 600px;
+}
+
+.first, .first_flexbox {
+    background-color: #ffd1dc;
+}
+
+.third, .third_flexbox {
+    background-color: #cce0ff;
+}
+
+.first, .first_flexbox,
+.third, .third_flexbox {
+    height: 15%;
+}
+
+.second, .second_flexbox,
+.fifths, .fifths_flexbox {
+    width: 20%;
+    background-color: #f4eddc;
+}
+
+.fourth, .fourth_flexbox {
+    width: 60%;
+    height: 60%;
+    background-color: #dcf4ef;
+}
+
+.first:hover, .first_flexbox:hover,
+.third:hover, .third_flexbox:hover,
+.second:hover, .second_flexbox:hover,
+.fifths:hover, .fifths_flexbox:hover {
+    font-style: italic;
+    font-weight: 700;
+    transform: scale(0.9);
+}
+
+.first:hover, .first_flexbox:hover {
+    background-color: #ffd9e2;
+}
+
+.second:hover, .second_flexbox:hover,
+.fifths:hover, .fifths_flexbox:hover {
+    background-color: #fdf5e6;
+}
+
+.third:hover, .third_flexbox:hover {
+    background-color: #d2e2fe;
+}
+
+.fourth:hover, .fourth_flexbox:hover {
+    alignment: bottom;
+    background-color: #c7fcec;
+    transform: skew(5deg, 5deg);
+}
+
+.fourth h1:hover, .fourth_flexbox h1:hover {
+    color: #b4c7c3;
+}
+
+td, .flexbox {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+}
+
+.first_sentence {
+    font-weight: 800;
+    font-style: italic;
+    font-family: "Roboto Light", sans-serif;
+}
+
+.small_letters_info {
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.first_flexbox, .content_flexbox, .third_flexbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.fifths_flexbox, .second_flexbox {
+    display: flex;
+    flex-direction: column;
+}
